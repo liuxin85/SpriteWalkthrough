@@ -21,6 +21,9 @@
 		4BAE0920196E2B3A0066B2D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAE0902196E2B3A0066B2D0 /* UIKit.framework */; };
 		4BAE0928196E2B3A0066B2D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BAE0926196E2B3A0066B2D0 /* InfoPlist.strings */; };
 		4BAE092A196E2B3A0066B2D0 /* SpriteWalkthroughTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE0929196E2B3A0066B2D0 /* SpriteWalkthroughTests.m */; };
+		4BAE0934196E2B820066B2D0 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAE0933196E2B820066B2D0 /* SpriteKit.framework */; };
+		4BAE0937196E2D2C0066B2D0 /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE0936196E2D2C0066B2D0 /* HelloScene.m */; };
+		4BAE093A196E34B00066B2D0 /* SpaceshipScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE0939196E34B00066B2D0 /* SpaceshipScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		4BAE0925196E2B3A0066B2D0 /* SpriteWalkthroughTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteWalkthroughTests-Info.plist"; sourceTree = "<group>"; };
 		4BAE0927196E2B3A0066B2D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4BAE0929196E2B3A0066B2D0 /* SpriteWalkthroughTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteWalkthroughTests.m; sourceTree = "<group>"; };
+		4BAE0933196E2B820066B2D0 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		4BAE0935196E2D2C0066B2D0 /* HelloScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloScene.h; sourceTree = "<group>"; };
+		4BAE0936196E2D2C0066B2D0 /* HelloScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloScene.m; sourceTree = "<group>"; };
+		4BAE0938196E34B00066B2D0 /* SpaceshipScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceshipScene.h; sourceTree = "<group>"; };
+		4BAE0939196E34B00066B2D0 /* SpaceshipScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceshipScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BAE0934196E2B820066B2D0 /* SpriteKit.framework in Frameworks */,
 				4BAE0901196E2B3A0066B2D0 /* CoreGraphics.framework in Frameworks */,
 				4BAE0903196E2B3A0066B2D0 /* UIKit.framework in Frameworks */,
 				4BAE08FF196E2B3A0066B2D0 /* Foundation.framework in Frameworks */,
@@ -101,6 +110,7 @@
 		4BAE08FD196E2B3A0066B2D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4BAE0933196E2B820066B2D0 /* SpriteKit.framework */,
 				4BAE08FE196E2B3A0066B2D0 /* Foundation.framework */,
 				4BAE0900196E2B3A0066B2D0 /* CoreGraphics.framework */,
 				4BAE0902196E2B3A0066B2D0 /* UIKit.framework */,
@@ -117,6 +127,10 @@
 				4BAE0910196E2B3A0066B2D0 /* Main.storyboard */,
 				4BAE0913196E2B3A0066B2D0 /* SpriteViewController.h */,
 				4BAE0914196E2B3A0066B2D0 /* SpriteViewController.m */,
+				4BAE0935196E2D2C0066B2D0 /* HelloScene.h */,
+				4BAE0936196E2D2C0066B2D0 /* HelloScene.m */,
+				4BAE0938196E34B00066B2D0 /* SpaceshipScene.h */,
+				4BAE0939196E34B00066B2D0 /* SpaceshipScene.m */,
 				4BAE0916196E2B3A0066B2D0 /* Images.xcassets */,
 				4BAE0905196E2B3A0066B2D0 /* Supporting Files */,
 			);
@@ -251,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BAE090B196E2B3A0066B2D0 /* main.m in Sources */,
+				4BAE0937196E2D2C0066B2D0 /* HelloScene.m in Sources */,
+				4BAE093A196E34B00066B2D0 /* SpaceshipScene.m in Sources */,
 				4BAE090F196E2B3A0066B2D0 /* SpriteAppDelegate.m in Sources */,
 				4BAE0915196E2B3A0066B2D0 /* SpriteViewController.m in Sources */,
 			);

@@ -1,14 +1,13 @@
 //
-//  SpriteViewController.h
+//  HelloScene.h
 //  SpriteWalkthrough
 //
 //  Created by liuxin on 14-7-10.
 //  Copyright (c) 2014年 liu xin. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <SpriteKit/SpriteKit.h>
 
-
-@interface SpriteViewController : UIViewController
+@interface HelloScene : SKScene
 
 @end
